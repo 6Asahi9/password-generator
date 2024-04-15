@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basic2.css">
+
+</head>
+<body>
+    <div class="container">Password generator</div>
+
+        <label for="passwordlength">Password Length:</label>
+        <input type="number" id="passwordlength" value="12"><br>
+        
+        <input type="checkbox" id="lowercase" checked>
+        <label for="lowercase">Include Lowercase Letters</label><br>
+        
+        <input type="checkbox" id="uppercase">
+        <label for="uppercase">Include Uppercase Letters</label><br>
+        
+        <input type="checkbox" id="numbers">
+        <label for="numbers">Include Numbers</label><br>
+        
+        <input type="checkbox" id="symbols">
+        <label for="symbols">Include Symbols</label><br>
+        
+        <button onclick="generatePassword()">Generate Password</button>
+        
+        <div id="password"></div>
+        
+    
+    
+
+    <script src="basic2.js"></script>
+</body>
+</html>
